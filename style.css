@@ -201,6 +201,7 @@ nav h3{
     font-weight: 700;
     line-height: 143%;
     letter-spacing: 0.252px;
+    max-width: 196px;
 }
 
 /* need fix : align right */
@@ -332,5 +333,36 @@ footer{
         grid-template-columns: repeat(2, 1fr);
         margin: 50px 42px;
 
+    }
+
+    .popular-card-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .featured{
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .featured-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0 16px;
+    }
+
+    .featured img{
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    footer{
+        padding: 50px 68px;
+    }
+
+    .footer-content p{
+        font-size: 12px;
     }
 }
