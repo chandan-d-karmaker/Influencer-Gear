@@ -11,6 +11,12 @@
 
 /* shared style */
 
+.centered{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -29,7 +35,7 @@
 
 .btn-prebook{
     padding: 10px 24px;
-    max-width: 196px;
+    /* max-width: 196px; */
     background-color: #E02C6D;
     color: white;
     font-size: 1rem;
@@ -43,7 +49,7 @@
 
 .btn-join-now{
     padding: 10px 24px;
-    max-width: 196px;
+    /* max-width: 196px; */
     background-color: #E02C6D;
     color: white;
     font-size: 1rem;
@@ -57,7 +63,7 @@
 /* navbar */
 
 nav{
-    max-width: 1200px;
+    /* max-width: 1200px; */
     justify-content: space-between;
     margin: 0 auto;
     padding-top: 80px;
@@ -87,16 +93,16 @@ nav h3{
 /* banner section */
 
 .banner-section{
-    max-width: 1180px;
+    /* max-width: 1180px; */
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 69px;
 }
 
-.banner-content{
+/* .banner-content{
     max-width: 582px;
-}
+} */
 
 .banner-content h3{
     font-size: 3.25rem;
@@ -131,7 +137,7 @@ nav h3{
     border-top: 2px solid rgba(214, 214, 214, 1);
     border-bottom: 2px solid rgba(214, 214, 214, 1);
     padding: 30px 32px;
-    max-width: 1110px;
+    /* max-width: 1110px; */
     margin-bottom: 100px;
 }
 
@@ -166,7 +172,7 @@ nav h3{
 }
 
 .popular-section .card img{
-    max-width: 300px;
+    /* max-width: 300px; */
     width: 100%;
 }
 
@@ -201,7 +207,7 @@ nav h3{
     font-weight: 700;
     line-height: 143%;
     letter-spacing: 0.252px;
-    max-width: 196px;
+    /* max-width: 196px; */
 }
 
 /* need fix : align right */
@@ -221,7 +227,7 @@ nav h3{
 
 .featured{
     margin: 0 auto;
-    max-width: 1110px;
+    /* max-width: 1110px; */
     justify-content: space-between;
     gap: 96px;
     align-items: center;
@@ -249,11 +255,13 @@ nav h3{
 footer{
     background-color: #0A0826;
     color: white;
-    padding: 50px 589px;
+    padding: 50px;
 }
 
 .footer-content{
     text-align: center;
+    margin: 0 auto;
+     /* max-width: 1110px; */
 }
 
 .footer-content .social{
@@ -306,7 +314,7 @@ footer{
     }
 
     .banner-img{
-        max-width: 257px;
+        /* max-width: 257px; */
         margin-bottom: 16px;
     }
 
